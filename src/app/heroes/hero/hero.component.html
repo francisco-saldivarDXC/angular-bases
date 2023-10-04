@@ -1,0 +1,22 @@
+<h1>Spiderman</h1>
+
+<h3> {{name}} </h3>
+<p> {{name}} </p>
+
+<h3>Edad</h3>
+<p> {{age}} </p>
+
+<h3>Método</h3>
+<p> {{getHeroDescription()}} </p>
+
+<h3>Capitalizado</h3>
+<p> {{capitalizeName}} </p>
+
+
+<h3>NGIF</h3>
+<button (click)="changeName()" *ngIf="showChangeName" class="btn btn-primary mx-2 ">Cambiar nombre</button>
+<button (click)="changeAge()" *ngIf="showChangeAge" class="btn btn-primary mx-2 ">Cambiar edad</button>
+<button (click)="resetForm()" class="btn btn-primary mx-2 ">Reset</button>
+
+
+
