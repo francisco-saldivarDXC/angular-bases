@@ -1,0 +1,4 @@
+<app-dbz-list (onDelete)="deleteItem($event)" [characterList]="characters"></app-dbz-list>
+<hr>
+<h3>Nuevo personaje</h3>
+<app-dbz-form (onNewCharacter)="insertCharacter($event)"></app-dbz-form>
